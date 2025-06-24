@@ -1,0 +1,62 @@
+/* Custom styles for King Sukh Guest House */
+
+body {
+  scroll-behavior: smooth;
+  background-color: #fff;
+  color: #000;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+/* Highlight navigation on hover */
+nav a:hover {
+  transition: color 0.3s ease;
+}
+
+/* Section titles */
+h1,
+h2,
+h3 {
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Button effects */
+button,
+a.button {
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+/* Responsive image styling */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 0.25rem;
+}
+
+.nav-underline {
+  position: relative;
+  color: white !important;
+  transition: color 0.3s;
+}
+
+.nav-underline::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0%;
+  height: 2px;
+  background-color: #ffc107;
+  transition: width 0.3s ease;
+}
+
+.nav-underline:hover::after,
+.nav-underline.active::after {
+  width: 100%;
+}
