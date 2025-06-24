@@ -1,3 +1,5 @@
+                                                                                              King Sukh Guest House  
+
 A responsive and visually engaging website for King Sukh Guest House, designed to showcase rooms, amenities, and location details for potential guests. Built using HTML, CSS, JavaScript, and Bootstrap 5, with smooth scrolling and animation effects to enhance user experience.
 
 ✨ Features
